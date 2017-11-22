@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="AnimationStyle">
+        <item>ALPHAIN</item>
+        <item>SCALEIN</item>
+        <item>SLIDEIN_BOTTOM</item>
+        <item>SLIDEIN_LEFT</item>
+        <item>SLIDEIN_RIGHT</item>
+        <item>Custom</item>
+    </string-array>
+</resources>
