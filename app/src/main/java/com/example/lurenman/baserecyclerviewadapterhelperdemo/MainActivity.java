@@ -12,6 +12,7 @@ import com.example.lurenman.baserecyclerviewadapterhelperdemo.activity.Animation
 import com.example.lurenman.baserecyclerviewadapterhelperdemo.activity.EmptyActivity;
 import com.example.lurenman.baserecyclerviewadapterhelperdemo.activity.HeaderAndFooterActivity;
 import com.example.lurenman.baserecyclerviewadapterhelperdemo.activity.ItemClickActivity;
+import com.example.lurenman.baserecyclerviewadapterhelperdemo.activity.MultipleItemActivity;
 import com.example.lurenman.baserecyclerviewadapterhelperdemo.activity.PullToRefreshActivity;
 import com.example.lurenman.baserecyclerviewadapterhelperdemo.activity.SectionActivity;
 import com.example.lurenman.baserecyclerviewadapterhelperdemo.adapter.HomeAdapter;
@@ -29,7 +30,8 @@ public class MainActivity extends AppCompatActivity {
     private ArrayList<String> mDatas = new ArrayList<>();
     private ArrayList<HomeItem> mDataList;
     private static final Class<?>[] ACTIVITY = {ItemClickActivity.class, AnimationActivity.class,
-            HeaderAndFooterActivity.class, PullToRefreshActivity.class, EmptyActivity.class, SectionActivity.class};
+            HeaderAndFooterActivity.class, PullToRefreshActivity.class, EmptyActivity.class, SectionActivity.class
+            , MultipleItemActivity.class};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initDatas() {
-        String[] array = {"ItemClick","Animation", "Header/Footer","PullToRefresh","Empty","Section"};
+        String[] array = {"ItemClick", "Animation", "Header/Footer", "PullToRefresh", "Empty", "Section", "MultipleItem"};
         List<String> list = Arrays.asList(array);
         mDatas.addAll(list);
         mDataList = new ArrayList<>();

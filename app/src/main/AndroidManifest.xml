@@ -24,6 +24,7 @@
         <activity android:name=".activity.HeaderAndFooterActivity" />
         <activity android:name=".activity.EmptyActivity" />
         <activity android:name=".activity.SectionActivity" />
+        <activity android:name=".activity.MultipleItemActivity" />
     </application>
 
 </manifest>
