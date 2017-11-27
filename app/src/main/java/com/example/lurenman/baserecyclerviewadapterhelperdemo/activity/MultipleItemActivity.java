@@ -52,7 +52,6 @@ public class MultipleItemActivity extends BaseActivity {
         mAdapter = new MultipleItemQuickAdapter(mDataLists);
         rv_list.setAdapter(mAdapter);
 
-
     }
 
     @Override

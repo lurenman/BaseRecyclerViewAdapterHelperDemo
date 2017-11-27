@@ -25,6 +25,7 @@
         <activity android:name=".activity.EmptyActivity" />
         <activity android:name=".activity.SectionActivity" />
         <activity android:name=".activity.MultipleItemActivity" />
+        <activity android:name=".activity.EasyRefreshLayoutActivity" />
     </application>
 
 </manifest>

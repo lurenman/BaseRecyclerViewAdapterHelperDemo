@@ -9,6 +9,7 @@ import android.view.View;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.example.lurenman.baserecyclerviewadapterhelperdemo.activity.AnimationActivity;
+import com.example.lurenman.baserecyclerviewadapterhelperdemo.activity.EasyRefreshLayoutActivity;
 import com.example.lurenman.baserecyclerviewadapterhelperdemo.activity.EmptyActivity;
 import com.example.lurenman.baserecyclerviewadapterhelperdemo.activity.HeaderAndFooterActivity;
 import com.example.lurenman.baserecyclerviewadapterhelperdemo.activity.ItemClickActivity;
@@ -31,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     private ArrayList<HomeItem> mDataList;
     private static final Class<?>[] ACTIVITY = {ItemClickActivity.class, AnimationActivity.class,
             HeaderAndFooterActivity.class, PullToRefreshActivity.class, EmptyActivity.class, SectionActivity.class
-            , MultipleItemActivity.class};
+            , MultipleItemActivity.class, EasyRefreshLayoutActivity.class};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initDatas() {
-        String[] array = {"ItemClick", "Animation", "Header/Footer", "PullToRefresh", "Empty", "Section", "MultipleItem"};
+        String[] array = {"ItemClick", "Animation", "Header/Footer", "PullToRefresh", "Empty", "Section", "MultipleItem", "EasyRefreshLayout"};
         List<String> list = Arrays.asList(array);
         mDatas.addAll(list);
         mDataList = new ArrayList<>();
